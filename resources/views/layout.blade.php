@@ -65,6 +65,40 @@
                         </router-link>
                     </li>
                     <li class="nav-item">
+                        <router-link active-class="active" to="/pending-jobs" class="nav-link d-flex align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><defs><path id="a" d="M0 0h24v24H0V0z"/></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"/></clipPath><path clip-path="url(#b)" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"/></svg>
+                            <span>Pending Jobs</span>
+                        </router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link active-class="active" to="/processing-jobs"
+                                     class="nav-link d-flex align-items-center">
+                            <div class="loader loader--style7 processing" title="6">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                     width="24px" height="30px" viewBox="0 0 24 30"
+                                     style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                                    <rect x="0" y="0" width="4" height="20" fill="#333">
+                                        <animate attributeName="opacity" attributeType="XML"
+                                                 values="1; .2; 1"
+                                                 begin="0s" dur="0.6s" repeatCount="indefinite"></animate>
+                                    </rect>
+                                    <rect x="7" y="0" width="4" height="20" fill="#333">
+                                        <animate attributeName="opacity" attributeType="XML"
+                                                 values="1; .2; 1"
+                                                 begin="0.2s" dur="0.6s" repeatCount="indefinite"></animate>
+                                    </rect>
+                                    <rect x="14" y="0" width="4" height="20" fill="#333">
+                                        <animate attributeName="opacity" attributeType="XML"
+                                                 values="1; .2; 1"
+                                                 begin="0.4s" dur="0.6s" repeatCount="indefinite"></animate>
+                                    </rect>
+                                </svg>
+                            </div>
+                            <span>Processing Jobs</span>
+                        </router-link>
+                    </li>
+                    <li class="nav-item">
                         <router-link active-class="active" to="/recent-jobs" class="nav-link d-flex align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                 <path d="M3.94 6.5L2.22 3.64l1.42-1.42L6.5 3.94c.52-.3 1.1-.54 1.7-.7L9 0h2l.8 3.24c.6.16 1.18.4 1.7.7l2.86-1.72 1.42 1.42-1.72 2.86c.3.52.54 1.1.7 1.7L20 9v2l-3.24.8c-.16.6-.4 1.18-.7 1.7l1.72 2.86-1.42 1.42-2.86-1.72c-.52.3-1.1.54-1.7.7L11 20H9l-.8-3.24c-.6-.16-1.18-.4-1.7-.7l-2.86 1.72-1.42-1.42 1.72-2.86c-.3-.52-.54-1.1-.7-1.7L0 11V9l3.24-.8c.16-.6.4-1.18.7-1.7zM10 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
